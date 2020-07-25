@@ -1,23 +1,45 @@
 <template>
   <div class="hello">
-    <h1>Miguel Alex Cantu</h1>
+    <div class="namePlate">
+      <h1 class="firstName">MIGUEL</h1>
+      <h1 class="mLastName">ALEX CANTU</h1>
+      <SocialMediaRibbon />
+    </div>
   </div>
 </template>
+
+<script>
+import SocialMediaRibbon from './SocialMediaRibbon.vue';
+
+export default {
+  name: 'NamePlate',
+  components: {
+    SocialMediaRibbon
+  }
+}
+</script>
 
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1 {
   top: 50%;
-  position: absolute;
-  color: white;
-  text-align: center;
-  left: 50%;
-  margin-left: -135px;
+  position: relative;
+  color: #d2e7fc;
+  font-size: 2.5em;
+  text-shadow: 0px 0px 5px #070202;
+  margin: 0px;
 }
+
+.firstName {
+	text-align: left;
+	padding-left: 21px;
+}
+
 h3 {
   margin: 40px 0 0;
 }
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -28,5 +50,17 @@ li {
 }
 a {
   color: #42b983;
+}
+
+.namePlate {
+	position: relative;
+	width: 340px;
+	left: 50%;
+	margin-left: -170px;
+} 
+
+.hello {
+	position: relative;
+	top: 50%
 }
 </style>

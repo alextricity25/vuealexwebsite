@@ -1,12 +1,11 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
     <NamePlate />
   </div>
 </template>
 
 <script>
-import NamePlate from './components/NamePlate.vue'
+import NamePlate from './components/NamePlate.vue';
 
 export default {
   name: 'App',
