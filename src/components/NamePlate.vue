@@ -54,9 +54,9 @@ a {
 
 .namePlate {
 	position: relative;
-	width: 340px;
+	width: 350px;
 	left: 50%;
-	margin-left: -170px;
+	margin-left: -175px;
 } 
 
 .hello {

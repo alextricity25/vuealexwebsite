@@ -28,6 +28,8 @@ a {
 	padding: 15px;
 	background: #fff;
 	color: #000;
+	width: 16px;
+	height: 16px;
 }
 
 a:hover {
