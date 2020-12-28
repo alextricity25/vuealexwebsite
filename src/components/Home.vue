@@ -1,13 +1,30 @@
 <template>
-  <div id="namePlate" class="centerStageText namePlate">
-    MIGUEL ALEX CANTU
+  <div id="home" class="centerStage">
+    <div class="centerStageText">
+      <NamePlate />
+    </div>
+    <div>
+      <SocialMediaReel />
+    </div>
+    <div>
+      <AlexNews />
+    </div>
   </div>
 </template>
 
 
 <script>
+import NamePlate from './NamePlate.vue';
+import SocialMediaReel from './SocialMediaReel.vue';
+import AlexNews from './AlexNews.vue';
+
 export default {
-  name: 'nameplate',
+  components: {
+    NamePlate,
+    SocialMediaReel,
+    AlexNews
+  },
+  name: 'home',
   data: function () {
     return {
       claims: '',
@@ -30,22 +47,3 @@ export default {
   }
 }
 </script>
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-
-.namePlate {
-  font-family: 'Staatliches', cursive;
-  font-size: 25px;
-  letter-spacing: 3px;
-  word-spacing: 2px;
-  color: #57624D;
-  color: #FFFFFF;
-  font-weight: normal;
-  text-decoration: none;
-  font-style: normal;
-  font-variant: normal;
-  text-transform: uppercase;
-  -webkit-text-stroke: .75px black;
-}
-</style>
