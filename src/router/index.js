@@ -4,8 +4,7 @@ import 'semantic-ui-css/semantic.min.css'
 import '@/css/centerstage.css'
 
 import HomeComponent from '@/components/Home'
-import ProfileComponent from '@/components/Profile'
-import MessagesComponent from '@/components/Messages'
+import AboutMeComponent from '@/components/AboutMe'
 
 Vue.use(Router)
 
@@ -17,13 +16,9 @@ const router = new Router({
       component: HomeComponent
     },
     {
-      path: '/profile',
-      component: ProfileComponent,
+      path: '/about-me',
+      component: AboutMeComponent,
     },
-    {
-      path: '/messages',
-      component: MessagesComponent,
-    }
   ]
 })
 

@@ -6,9 +6,6 @@
     <div>
       <SocialMediaReel />
     </div>
-    <div>
-      <AlexNews />
-    </div>
   </div>
 </template>
 
@@ -16,13 +13,11 @@
 <script>
 import NamePlate from './NamePlate.vue';
 import SocialMediaReel from './SocialMediaReel.vue';
-import AlexNews from './AlexNews.vue';
 
 export default {
   components: {
     NamePlate,
     SocialMediaReel,
-    AlexNews
   },
   name: 'home',
   data: function () {

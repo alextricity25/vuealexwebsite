@@ -32,6 +32,9 @@ export default {
   methods: {
     async setup () {
     },
+    getInstaData () {
+
+    },
   }
 }
 </script>
