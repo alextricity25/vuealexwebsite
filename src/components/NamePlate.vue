@@ -10,17 +10,6 @@ export default {
   name: 'nameplate',
   data: function () {
     return {
-      claims: '',
-      resourceServerExamples: [
-        {
-          label: 'Node/Express Resource Server Example',
-          url: 'https://github.com/okta/samples-nodejs-express-4/tree/master/resource-server'
-        },
-        {
-          label: 'Java/Spring MVC Resource Server Example',
-          url: 'https://github.com/okta/samples-java-spring-mvc/tree/master/resource-server'
-        }
-      ]
     }
   },
   created () { },
